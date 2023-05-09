@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import font awesome library  -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Render and reset all userAgent styles -->
+    <link rel="stylesheet" href="css/normailze.css">
+    <!-- Import Components CSS File -->
+    <link rel="stylesheet" href="css/Components.css">
+    <!-- Import framework CSS File -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Import Main Style CSS File  -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Template 4 | Profile </title>
+  </head>
+  <body>
+    <main class="d-flex page-bg">
+      <!-- Start Aside Bar -->
+      <div class="aside p-20 bg-white">
+        <h3 class="tx-center p-rel">Abdo</h3>
+        <ul class="pt-20">
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="profile.html">
+              <i class="fa-solid fa-user fa-fw"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="Friends.html">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="Plans.html">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- End Aside Bar -->
+      <div class="content w-full over-hidden">
+        <header class=" nav p-15 bg-white between-flex">
+          <div class="search p-rel">
+            <i class="fa-solid fa-magnifying-glass fa-fw "></i>
+            <input type="search" placeholder="Search Here!" class="p-10 rad-10" >
+          </div>
+          <div class="user d-flex al-center">
+            <i class="fa-regular fa-bell fa-lg mr-20 p-rel"></i>
+            <img src="images/avatar.png" alt="avatar">
+          </div>
+        </header>
+        <h1 class="p-rel">Profile</h1>
+        <div class="profile-info center-flex bg-white rad-10 flex-col-mobile">
+          <div class="profile-img tx-center p-20">
+            <img src="images/avatar.png" alt="avatar">
+            <h3 class="mb-10 mt-10">Abdulrhman Soliman</h3>
+            <p class="gray">Level 20</p>
+            <span class="progress mt-10 w-full bg-eee rad-10 d-block p-rel over-hidden"></span>
+            <div class="stars mb-10 mt-10">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <span class="gray d-block fs-12">550 Rating</span>
+          </div>
+          <div class="all-info flex-grow">
+            <div class=" pb-20 pl-30 pt-20">
+              <p class="gray fs-14 txt-c-mobile">General Information</p>
+              <div class="list d-flex pt-10 fs-14 f-wrap">
+                <p class="gray pb-10">Full Name: <span>Abdulrhman Soliman</span></p>
+                <p class="gray pb-10">Gender: <span>Male</span></p>
+                <p class="gray pb-10">Country: <span>Egypt</span></p>
+                <input type="checkbox" class="check" checked>
+              </div>
+            </div>
+            <div class=" pb-20 pt-20 pl-30">
+              <p class="gray fs-14 txt-c-mobile">Personal Information</p>
+              <div class="list d-flex pt-10 fs-14 f-wrap">
+                <p class="gray pb-10">Email: <span>abdo@gmail</span></p>
+                <p class="gray pb-10">Phone: <span>0123456789</span></p>
+                <p class="gray pb-10">Date Of Birth: <span>2001/12/4</span></p>
+                <input type="checkbox" class="check">
+              </div>
+            </div>
+            <div class=" pb-20 pt-20 pl-30">
+              <p class="gray fs-14 txt-c-mobile">Job Information</p>
+              <div class="list d-flex pt-10 fs-14 f-wrap">
+                <p class="gray pb-10">Title: <span>Front-End Pro. Dev</span></p>
+                <p class="gray pb-10">Programming Lang. : <span>JavaScript</span></p>
+                <p class="gray pb-10">Years Of EX. : <span>5+</span></p>
+                <input type="checkbox" class="check" checked>
+              </div>
+            </div>
+            <div class=" pb-20 pt-20 pl-30">
+              <p class="gray fs-14 txt-c-mobile">Billing Information</p>
+              <div class="list d-flex  pt-10 fs-14 f-wrap">
+                <p class="gray pb-10">billing Method: <span>Paypal</span></p>
+                <p class="gray pb-10">Email: <span>Abdo@gmail</span></p>
+                <p class="gray pb-10">Subscription: <span>Monthly</span></p>
+                <input type="checkbox" class="check">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-activity d-flex gap-20 flex-col-mobile">
+          <div class="skills p-20 bg-white rad-10">
+            <h2 class="pt-10 pb-10">My Skills</h2>
+            <p class=" gray fs-14 pt-10 pb-10">Complete Skills List</p>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> HTML</span>
+              <span class="num-shape"> Pugjs</span>
+              <span class="num-shape"> XHTML</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> CSS</span>
+              <span class="num-shape"> SASS</span>
+              <span class="num-shape"> Stylus</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> JavaScript</span>
+              <span class="num-shape"> TypeScript</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> Vuejs</span>
+              <span class="num-shape"> Reactjs</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> Jest</span>
+              <span class="num-shape"> Jasmine</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape">PHP</span>
+              <span class="num-shape">Laravel</span>
+            </div>
+            <div class="skill pt-20 pb-20 d-flex gap-10">
+              <span class="num-shape"> Python</span>
+              <span class="num-shape"> Django</span>
+            </div>
+          </div>
+          <div class="activity p-20 bg-white rad-10 flex-grow">
+            <h2 class="pt-10 pb-10">Latest Activities</h2>
+            <p class=" gray fs-14 pt-10 pb-20">Latest Activities Done By The User</p>
+            <div class="box between-flex pb-20 mb-20 flex-col-mobile txt-c-mobile gap-10">
+              <figure class="center-flex gap-10 flex-col-mobile">
+                <img src="images/activity-01.png" alt="activity">
+                <div class="text">
+                  <p>Store</p>
+                  <span class="d-block gray pt-10 ">Bought The Mastering Python Course</span>
+                </div>
+              </figure>
+              <div class="time">
+                <p>18:10</p>
+                <span class="d-block gray pt-10 ">Yesterday</span>
+              </div>
+            </div>
+            <div class="box between-flex pb-20  mb-20 flex-col-mobile txt-c-mobile gap-10">
+              <figure class="center-flex gap-10 flex-col-mobile">
+                <img src="images/activity-02.png" alt="activity">
+                <div class="text">
+                  <p>Academy</p>
+                  <span class="d-block gray pt-10 ">Got The PHP Certificate</span>
+                </div>
+              </figure>
+              <div class="time">
+                <p>18:10</p>
+                <span class="d-block gray pt-10 ">Yesterday</span>
+              </div>
+            </div>
+            <div class="box between-flex pb-20  mb-20 flex-col-mobile txt-c-mobile gap-10">
+              <figure class="center-flex gap-10 flex-col-mobile">
+                <img src="images/activity-03.png" alt="activity">
+                <div class="text">
+                  <p>Badges</p>
+                  <span class="d-block gray pt-10 ">Unlocked The 10 Skills Badge</span>
+                </div>
+              </figure>
+              <div class="time">
+                <p>18:10</p>
+                <span class="d-block gray pt-10 ">Yesterday</span>
+              </div>
+            </div>
+            <div class="box between-flex pb-20 flex-col-mobile txt-c-mobile gap-10">
+              <figure class="center-flex gap-10 flex-col-mobile">
+                <img src="images/activity-01.png" alt="activity">
+                <div class="text">
+                  <p>Store</p>
+                  <span class="d-block gray pt-10 ">Bought The Mastering Python Course</span>
+                </div>
+              </figure>
+              <div class="time">
+                <p>18:10</p>
+                <span class="d-block gray pt-10 ">Yesterday</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
