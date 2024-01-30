@@ -742,7 +742,7 @@ form .txt-area {
 .profile-info .profile-img {
   min-width: 200px;
 }
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .profile-info .profile-img {
     border-right: 1px solid #eee;
   }
@@ -753,15 +753,6 @@ form .txt-area {
 }
 .progress {
   height: 5px;
-}
-.progress::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 60%;
-  height: 100%;
-  background-color: var(--blue-sky);
-  border-radius: 10px;
 }
 .profile-info .profile-img .stars i {
   color: #f59e0b;
@@ -916,7 +907,7 @@ form .txt-area {
   }
 }
 @media (max-width: 767px) {
-  .friends  .friend{
+  .friends .friend {
     margin-bottom: 20px;
   }
 }
@@ -993,11 +984,11 @@ form .txt-area {
     display: flex;
     flex-direction: column;
     flex-basis: 70%;
-}
-.files-content{
-  flex-direction: column-reverse;
-}
   }
+  .files-content {
+    flex-direction: column-reverse;
+  }
+}
 .files .file img {
   max-width: 70px;
   padding: 20px 0;
@@ -1075,48 +1066,48 @@ form .txt-area {
   border: 3px solid white;
   outline: 3px solid #22c55e;
 }
-.plans .basic .price{
+.plans .basic .price {
   border: 3px solid white;
   outline: 3px solid var(--blue-sky);
 }
-.plans .premium .price{
+.plans .premium .price {
   border: 3px solid white;
   outline: 3px solid #f59e0b;
 }
-.plans >div .price .text {
-margin: auto;
+.plans > div .price .text {
+  margin: auto;
 }
-.plans >div .price .amount {
+.plans > div .price .amount {
   font-size: 40px;
   position: relative;
 }
-.plans >div .price .amount span {
+.plans > div .price .amount span {
   font-size: 30px;
   position: absolute;
   top: -10px;
   left: -25px;
 }
-.plans >div ul li{
+.plans > div ul li {
   border-bottom: 1px solid #eee;
   padding: 20px 30px;
   position: relative;
 }
-.plans >div ul li::before{
+.plans > div ul li::before {
   position: absolute;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   left: 0;
   font-size: 20px;
 }
-.plans >div ul li.true::before{
+.plans > div ul li.true::before {
   content: "\f00c";
   color: #22c55e;
 }
-.plans >div ul li.false::before{
-content: "\58";
-color: #f44336;
+.plans > div ul li.false::before {
+  content: "\58";
+  color: #f44336;
 }
-.plans >div ul li::after{
+.plans > div ul li::after {
   content: "\f05a";
   position: absolute;
   font-family: "Font Awesome 6 Free";
@@ -1124,17 +1115,17 @@ color: #f44336;
   color: #888;
   right: 0;
 }
-.plans >div a{
+.plans > div a {
   font-size: 16px;
   padding: 6px 20px;
 }
-.plans .free a{
+.plans .free a {
   background-color: #22c55e;
 }
-.plans .basic a{
+.plans .basic a {
   background-color: var(--blue-sky);
 }
-.plans .premium a{
+.plans .premium a {
   background-color: #f59e0b;
 }
 /* -------end plans page--------- */
